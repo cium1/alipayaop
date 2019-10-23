@@ -6,6 +6,18 @@
             "email": "ye91@foxmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "alipayaop\\": "src/"
+        }
+    },
     "require": {
+        "ext-openssl": "*",
+        "ext-simplexml": "*",
+        "ext-libxml": "*",
+        "ext-json": "*",
+        "ext-iconv": "*",
+        "ext-mbstring": "*",
+        "ext-curl": "*"
     }
 }

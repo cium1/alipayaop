@@ -1,2 +1,4 @@
 /.idea
-/test/storage
+/src/test/storage
+composer.lock
+vendor
