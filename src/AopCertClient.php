@@ -4,7 +4,7 @@
  * Email:   ye91@foxmail.com
  */
 
-namespace alipayaop;
+namespace cium1\alipayaop;
 
 
 class AopCertClient

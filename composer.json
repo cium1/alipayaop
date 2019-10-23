@@ -8,10 +8,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "alipayaop\\": "src/"
+            "cium1\\alipayaop\\": "src/"
         }
     },
     "require": {
+        "php": ">=7.0.0",
         "ext-openssl": "*",
         "ext-simplexml": "*",
         "ext-libxml": "*",

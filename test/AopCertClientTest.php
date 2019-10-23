@@ -1,9 +1,14 @@
 <?php
+
 /**
  * Author:  Yejia
  * Email:   ye91@foxmail.com
  */
-$aop = new \alipayaop\AopCertClient();
+
+use cium1\alipayaop\AopCertClient;
+use cium1\alipayaop\request\AlipayFundTransUniTransferRequest;
+
+$aop = new AopCertClient();
 //应用证书路径（要确保证书文件可读），例如：/home/admin/cert/appCertPublicKey.crt
 $appCertPath = __DIR__ . "storage/appCertPublicKey.crt";
 //支付宝公钥证书路径（要确保证书文件可读），例如：/home/admin/cert/alipayCertPublicKey_RSA2.crt
@@ -27,7 +32,7 @@ $aop->appCertSN = $aop->getCertSN($appCertPath);
 //调用getRootCertSN获取支付宝根证书序列号
 $aop->alipayRootCertSN = $aop->getRootCertSN($rootCertPath);
 //请求
-$request = new \alipayaop\request\AlipayFundTransUniTransferRequest();
+$request = new AlipayFundTransUniTransferRequest();
 $request->setBizContent(json_encode([
     'out_biz_no'   => time(),
     'trans_amount' => '88.88',

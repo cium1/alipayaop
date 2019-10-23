@@ -4,11 +4,11 @@
  * Email:   ye91@foxmail.com
  */
 
-namespace alipayaop\request;
+namespace cium1\alipayaop\request;
 
 
-use alipayaop\Request;
-use alipayaop\RequestBase;
+use cium1\alipayaop\Request;
+use cium1\alipayaop\RequestBase;
 
 /**
  *  ALIPAY API: alipay.fund.trans.uni.transfer request
