@@ -6,6 +6,8 @@
 
 namespace cium1\alipayaop;
 
+require __DIR__ . '/AopCertification.php';
+require __DIR__ . '/AopEncrypt.php';
 
 class AopCertClient
 {

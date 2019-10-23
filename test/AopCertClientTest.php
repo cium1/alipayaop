@@ -10,17 +10,17 @@ use cium1\alipayaop\request\AlipayFundTransUniTransferRequest;
 
 $aop = new AopCertClient();
 //应用证书路径（要确保证书文件可读），例如：/home/admin/cert/appCertPublicKey.crt
-$appCertPath = __DIR__ . "storage/appCertPublicKey.crt";
+$appCertPath = __DIR__ . "/storage/appCertPublicKey.crt";
 //支付宝公钥证书路径（要确保证书文件可读），例如：/home/admin/cert/alipayCertPublicKey_RSA2.crt
-$alipayCertPath = __DIR__ . "storage/alipayCertPublicKey_RSA2.crt";
+$alipayCertPath = __DIR__ . "/storage/alipayCertPublicKey_RSA2.crt";
 //支付宝根证书路径（要确保证书文件可读），例如：/home/admin/cert/alipayRootCert.crt
-$rootCertPath = __DIR__ . "storage/alipayRootCert.crt";
+$rootCertPath = __DIR__ . "/storage/alipayRootCert.crt";
 //网关
 $aop->gatewayUrl = 'https://openapi.alipaydev.com/gateway.do';
 //你的appid
 $aop->appId = '2016101200666234';
 //你的应用私钥
-$aop->rsaPrivateKey = trim(file_get_contents(__DIR__ . "storage/privateKey.txt"));
+$aop->rsaPrivateKey = trim(file_get_contents(__DIR__ . "/storage/privateKey.txt"));
 //调用getPublicKey从支付宝公钥证书中提取公钥
 $aop->alipayrsaPublicKey = $aop->getPublicKey($alipayCertPath);
 $aop->signType = 'RSA2';

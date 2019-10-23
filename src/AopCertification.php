@@ -4,8 +4,6 @@
  * Email:   ye91@foxmail.com
  */
 
-namespace cium1\alipayaop;
-
 
 /**
  * 验证支付宝公钥证书是否可信

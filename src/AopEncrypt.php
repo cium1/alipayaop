@@ -4,7 +4,6 @@
  * Email:   ye91@foxmail.com
  */
 
-namespace cium1\alipayaop;
 
 /**
  * 加密方法
