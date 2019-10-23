@@ -1,0 +1,19 @@
+{
+    "name": "cium1/alipayaop",
+    "authors": [
+        {
+            "name": "cium",
+            "email": "ye91@foxmail.com"
+        }
+    ],
+    "require": {
+        "ext-openssl": "*",
+        "ext-simplexml": "*",
+        "ext-libxml": "*",
+        "ext-json": "*",
+        "ext-iconv": "*",
+        "ext-mbstring": "*",
+        "ext-curl": "*",
+        "ext-mcrypt": "*"
+    }
+}
