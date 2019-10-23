@@ -1,5 +1,7 @@
 {
     "name": "cium1/alipayaop",
+    "license": "Apache-2.0",
+    "description": "PHP AlipayAopCert SDK implementation",
     "authors": [
         {
             "name": "cium",
