@@ -7,13 +7,5 @@
         }
     ],
     "require": {
-        "ext-openssl": "*",
-        "ext-simplexml": "*",
-        "ext-libxml": "*",
-        "ext-json": "*",
-        "ext-iconv": "*",
-        "ext-mbstring": "*",
-        "ext-curl": "*",
-        "ext-mcrypt": "*"
     }
 }
