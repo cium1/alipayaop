@@ -10,6 +10,12 @@ namespace alipayaop\request;
 use alipayaop\Request;
 use alipayaop\RequestBase;
 
+/**
+ *  ALIPAY API: alipay.fund.trans.uni.transfer request
+ * 支付宝转账支付接口
+ *
+ * @package alipayaop\request
+ */
 class AlipayFundTransUniTransferRequest extends RequestBase implements Request
 {
 
