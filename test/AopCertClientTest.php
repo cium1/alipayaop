@@ -31,20 +31,20 @@ $aop->isCheckAlipayPublicCert = true;
 $aop->appCertSN = $aop->getCertSN($appCertPath);
 //调用getRootCertSN获取支付宝根证书序列号
 $aop->alipayRootCertSN = $aop->getRootCertSN($rootCertPath);
-//请求
-$request = new AlipayFundTransUniTransferRequest();
-$request->setBizContent(json_encode([
-    'out_biz_no'   => time(),
-    'trans_amount' => '88.88',
-    "product_code" => "TRANS_ACCOUNT_NO_PWD",
-    "biz_scene"    => "DIRECT_TRANSFER",
-    "payee_info"   => [
-        "identity"      => "irtegm4753@sandbox.com",
-        "identity_type" => "ALIPAY_LOGON_ID",
-        "name"          => "沙箱环境",
-    ],
-]));
+
 try {
+    $request = new AlipayFundTransUniTransferRequest();
+    $request->setBizContent(json_encode([
+        'out_biz_no'   => time(),
+        'trans_amount' => '88.88',
+        "product_code" => "TRANS_ACCOUNT_NO_PWD",
+        "biz_scene"    => "DIRECT_TRANSFER",
+        "payee_info"   => [
+            "identity"      => "irtegm4753@sandbox.com",
+            "identity_type" => "ALIPAY_LOGON_ID",
+            "name"          => "沙箱环境",
+        ],
+    ]));
     $result = $aop->execute($request);
     var_export($result);
 } catch (\Exception $e) {
