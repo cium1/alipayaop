@@ -1,4 +1,8 @@
 <?php
+/**
+ * Author:  Yejia
+ * Email:   ye91@foxmail.com
+ */
 
 namespace cium1\alipayaop\request;
 
@@ -9,8 +13,7 @@ use cium1\alipayaop\Request;
  * 支付宝资金账户资产查询接口
  * ALIPAY API: alipay.fund.account.query request
  *
- * @author auto create
- * @since  1.0, 2019-10-16 14:30:31
+ * @package cium1\alipayaop\request
  */
 class AlipayFundAccountQueryRequest extends RequestBase implements Request
 {

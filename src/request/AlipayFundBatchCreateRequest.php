@@ -6,16 +6,17 @@
 
 namespace cium1\alipayaop\request;
 
+
 use cium1\alipayaop\Request;
 use cium1\alipayaop\RequestBase;
 
 /**
- * 转账业务单据查询接口
- * ALIPAY API: alipay.fund.trans.common.query request
+ * 批次下单接口
+ * ALIPAY API: alipay.fund.batch.create request
  *
  * @package cium1\alipayaop\request
  */
-class AlipayFundTransCommonQueryRequest extends RequestBase implements Request
+class AlipayFundBatchCreateRequest extends RequestBase implements Request
 {
     public function setBizContent($bizContent)
     {
@@ -30,7 +31,7 @@ class AlipayFundTransCommonQueryRequest extends RequestBase implements Request
 
     public function getApiMethodName()
     {
-        return "alipay.fund.trans.common.query";
+        return "alipay.fund.batch.create";
     }
 
     public function setNotifyUrl($notifyUrl)

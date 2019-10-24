@@ -11,8 +11,8 @@ use cium1\alipayaop\Request;
 use cium1\alipayaop\RequestBase;
 
 /**
- *  ALIPAY API: alipay.fund.trans.uni.transfer request
  * 支付宝转账支付接口
+ *  ALIPAY API: alipay.fund.trans.uni.transfer request
  *
  * @package alipayaop\request
  */

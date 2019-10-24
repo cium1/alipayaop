@@ -3,3 +3,4 @@
 1. 支付宝转账支付接口 ( ALIPAY API: alipay.fund.trans.uni.transfer request )
 2. 支付宝资金账户资产查询接口 ( ALIPAY API: alipay.fund.account.query request )
 3. 转账业务单据查询接口 ( ALIPAY API: alipay.fund.trans.common.query request )
+4. 批次下单接口 ( ALIPAY API: alipay.fund.batch.create request )
