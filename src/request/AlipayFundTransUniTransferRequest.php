@@ -4,11 +4,11 @@
  * Email:   ye91@foxmail.com
  */
 
-namespace cium1\alipayaop\request;
+namespace Cium\AlipayAop\request;
 
 
-use cium1\alipayaop\Request;
-use cium1\alipayaop\RequestBase;
+use Cium\AlipayAop\Request;
+use Cium\AlipayAop\RequestBase;
 
 /**
  * 支付宝转账支付接口

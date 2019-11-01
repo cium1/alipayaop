@@ -5,8 +5,8 @@
  * Email:   ye91@foxmail.com
  */
 
-use cium1\alipayaop\AopCertClient;
-use cium1\alipayaop\request\AlipayFundTransUniTransferRequest;
+use Cium\AlipayAop\AopCertClient;
+use Cium\AlipayAop\request\AlipayFundTransUniTransferRequest;
 
 $aop = new AopCertClient();
 //应用证书路径（要确保证书文件可读），例如：/home/admin/cert/appCertPublicKey.crt

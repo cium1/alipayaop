@@ -4,16 +4,16 @@
  * Email:   ye91@foxmail.com
  */
 
-namespace cium1\alipayaop\request;
+namespace Cium\AlipayAop\request;
 
-use cium1\alipayaop\RequestBase;
-use cium1\alipayaop\Request;
+use Cium\AlipayAop\RequestBase;
+use Cium\AlipayAop\Request;
 
 /**
  * 支付宝资金账户资产查询接口
  * ALIPAY API: alipay.fund.account.query request
  *
- * @package cium1\alipayaop\request
+ * @package Cium\AlipayAop\request
  */
 class AlipayFundAccountQueryRequest extends RequestBase implements Request
 {

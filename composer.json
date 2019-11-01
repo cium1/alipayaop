@@ -1,5 +1,5 @@
 {
-    "name": "cium1/alipayaop",
+    "name": "cium/alipayaop",
     "license": "Apache-2.0",
     "description": "PHP AlipayAopCert SDK implementation",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "cium1\\alipayaop\\": "src/"
+            "Cium\\AlipayAop\\": "src/"
         }
     },
     "require": {

@@ -4,7 +4,7 @@
  * Email:   ye91@foxmail.com
  */
 
-namespace cium1\alipayaop;
+namespace Cium\AlipayAop;
 
 require __DIR__ . '/AopCertification.php';
 require __DIR__ . '/AopEncrypt.php';
